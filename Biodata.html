@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="icon" type="image/png" href="img/profile (3).png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<style type="text/css">
+*{
+    box-sizing: border-box;
+
+}
+    /*element*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+nav{
+    top: 15px;
+	position: fixed;
+	padding: 20px;
+	background: #34495e;
+	border-radius: 8px;
+	font-size: 0;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+
+
+nav a{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 10px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+nav .animation{
+	position: absolute;
+	height: 20%;
+	/* height: 5px; */
+	top: 40px;
+	/* bottom: 0; */
+	z-index: 0;
+	background: #1abc9c;
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 135px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 110px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 90px;
+	left: 130px;
+}
+
+
+footer{
+    background-color: tomato;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center
+}
+/*Grouping selector*/
+h2, h3{
+    color: #bb7711;
+}
+/*Class selector*/
+.jumbotron{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(17, 13, 13), rgb(1, 86, 112), rgb(17, 13, 13));
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+a.tombol-beli:link, a.tombol-beli:visited {
+  background-color: #282f97;
+  color: white;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.tombol-beli:hover, a.tombol-beli:active {
+  background-color: rgb(0, 14, 207);
+}
+
+a.tombol-admin:link, a.tombol-admin:visited {
+  background-color: #17661b;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.tombol-admin:hover, a.tombol-admin:active {
+  background-color: rgb(9, 255, 0);
+}
+
+.card{
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 gainsboro;
+}
+
+.content{
+    width: 75%;
+    float: right;
+
+}
+
+main{
+    overflow: auto;
+    padding: 15px;
+}
+
+aside{
+    text-align: center;
+    width: 24%;
+    float: left;
+    
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.label-1{
+    background-color: rgb(0, 34, 146);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.label-2{
+    background-color: rgb(0, 146, 78);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.image{
+    width: 250px;
+    border-radius: 50%
+}
+
+@media screen and (max-width: 922px){
+    .content ,aside{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <header>
+        <div class="jumbotron">
+        <h1 class="judul">Agent Business Online</h1>
+        <p>Bisnis online yang berbasis produk digital dengan pembayaran yang mudah</p>
+    </div>
+        <nav>
+       <a href="Biodata.html">Refresh</a>
+      <a href="Produk.html">Beli</a>
+      <div class="animation start-home"></div>
+        </nav>
+    </header>
+
+    <main>
+        <aside >
+            <div class="card">
+                <img src="img/Kemal.jpg" alt="MKP TREON AGENT" class="image">
+                <p class="text-bold">Muhammad Kemal Pasha <br>(Pendiri & Pembuat Web)</p>
+                <p class="label-1">Jabatan </p>
+                Komisaris <span style="color: #5586e2;">&#10022;</span>MKP TREON<span style="color: #5586e2;">&#10022;</span>
+                <p class="label-1">Omzet</p>
+                +35 Juta (12 Bulan)
+            </div>
+            <br>
+            <div class="card">
+                <img src="img/logo2.png" alt="MKP TREON AGENT" class="image">
+                <p class="text-bold">MKP TREON AGENT <br>(Perusahaan)</p>
+                <p class="label-2">Jenis Produk </p>
+                Digital
+                <p class="label-2">Produk</p>
+                Pulsa, Data, PLN, Games, DLL
+            </div>
+            
+            
+        </aside>
+        <section class="card content" >
+            <h2>Sejarah Berdiri</h2>
+            <p>&nbsp&nbsp&nbsp&nbspSesuai namanya, TREON yang artinya di plesetkan dari B. Inggris dimana TRE=3 dan ON=1 yang dijadikan tanggal serta bulan 
+                terdirinya perusahaan ini. Jadi Perusahaan ini didirikan pada tanggal 03 Januari 2020. Didirikan oleh seorang mahasiswa dari UIN BANDUNG asal Pameungpeuk yaitu Muhammad Kemal Pasha. Pada masanya beliau mampu memiliki omzet hampir 25 juta dalam 11 bulan hanya dengan mengandalkan web buatannya sendiri. Yap, web sekarang yang anda pakai.
+                 <br> &nbsp&nbsp&nbsp&nbspPerusahaan ini bergerak pada bidang PRODUK DIGITAL dengan sistem Easy Control dan Manual Payment. </p>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="card content" style="background: rgb(36, 36, 36); color: white;">
+            <h3>Cara Pembelian & Daftar Agent</h3>
+            <h2>Cara Pembelian</h2>
+            Klik Icon "BELI" diatas atau Klik &nbsp<a class="tombol-beli" href="Produk.html">BELI</a>
+            <h3>Cara Daftar Agent</h3>
+            <span style="color: rgb(255, 0, 0);">----------TIDAK ADA SYARAT APAPUN!!!---------- </span style="color: red;"><br>
+            Chat aja ke WhatsApp admin "Saya Mau Jadi Agent Pulsa" dengan No dibawah <br><br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a class="tombol-admin" href="https://api.whatsapp.com/send?phone=6285323666527&text=Saya%20tertarik%20untuk%20jadi%20AGENT%20segera." target="blank">Chat Admin <span style="color: rgb(21, 255, 0);">&#10004</span></a> <br><br>
+            Nanti Admin akan mengarahkan anda sampai anda resmi menjadi agent sekaligus mendapat bimbingan gratis!
+            
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2021 Developer by Kemal Pasha <span style="color: #001d6e;">&#10026;</span>
+    </footer>
+</body>
+</html>
+
+
+
+
