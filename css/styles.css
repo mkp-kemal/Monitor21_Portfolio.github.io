@@ -11421,7 +11421,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/wp4759213-cb-png-wallpapers.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/wallpaperbetter4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11476,12 +11476,13 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/wp4759222-cb-png-wallpapers.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/wallpaperbetter3.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
+  color: rgb(173, 173, 177);
   font-size: 4rem;
   margin: 0;
   padding: 0;
